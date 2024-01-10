@@ -1,0 +1,15 @@
+<div class="title">
+    <h1>Todo table</h1>
+</div>
+<div class="form-section">
+    <app-todo-form></app-todo-form>
+</div>
+<div class="todo-list-container">
+    <ul class="todo-list">
+        @for(todo of todos; track todo.id) {
+            <app-todo-item [todo]="todo"></app-todo-item>
+        } @empty {
+            <div class="empty-todos">What's the plan? 🤔</div>
+         }
+    </ul>
+</div>

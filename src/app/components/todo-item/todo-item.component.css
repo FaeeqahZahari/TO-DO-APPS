@@ -1,0 +1,28 @@
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo-checkbox {
+    height: 2.4rem;
+    width: 2.4rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.todo-checkbox--completed {
+    background-image: url("../../../assets/images/icon-check.svg"), linear-gradient(to bottom right, rgb(215, 85, 255), rgb(243, 88, 140));
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.todo-title {
+    padding: 0.5em;
+    
+    width: 250px;
+}
+.todo-title--completed {
+    text-decoration: line-through;
+    color: gray;
+}

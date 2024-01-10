@@ -1,0 +1,14 @@
+.todo-list-container {
+    display: flex;
+    justify-content: center;
+}
+.todo-list {
+    box-shadow: -2px 6px 28px 6px rgba(0,0,0,0.33);
+    width: 400px;
+    padding: 2em;
+    border-radius: 8px;
+}
+.form-section {
+    display: flex;
+    justify-content: center;
+}

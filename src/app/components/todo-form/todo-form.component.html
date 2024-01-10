@@ -1,0 +1,17 @@
+<form
+    [formGroup]="newTodoForm"
+    class="input-wrapper"
+>
+    <input
+    class="todo-checkbox"
+    type="checkbox"
+    formControlName="completed"
+    />
+    <input
+    class="todo-input"
+    type="text"
+    placeholder="Something exciting..."
+    formControlName="title"
+    />
+    <button class="submit-btn" type="submit" (click)="onSubmit()">Create Task ✍️</button>
+</form>
